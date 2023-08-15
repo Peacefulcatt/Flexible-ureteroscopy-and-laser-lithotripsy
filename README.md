@@ -1,3 +1,5 @@
+---
+
 # Flexible Ureteroscopy and Laser Lithotripsy Object Detection
 
 This repository contains a Python script tailored for detecting and measuring objects in Flexible Ureteroscopy and Laser Lithotripsy (FURSL) footages. The script leverages the OpenCV library to perform advanced image processing tasks, including color filtering, contour detection, and bounding box calculations.
@@ -32,7 +34,11 @@ This repository contains a Python script tailored for detecting and measuring ob
 
 3. Customize the `grid_space` and `diameter` variables in the script to match your specific FURSL setup.
 
-4. Update `video_path` with the path to your Flexible Ureteroscopy and Laser Lithotripsy video footage.
+4. You can use the provided `sample.mp4` as a test video. Update `video_path` with the path to the `sample.mp4` file:
+
+   ```python
+   video_path = "sample.mp4"
+   ```
 
 5. Run the script:
 
@@ -57,4 +63,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 The script's design is inspired by various image processing techniques and harnesses the capabilities of the OpenCV library. It has been optimized for Flexible Ureteroscopy and Laser Lithotripsy applications.
 
 ---
-
