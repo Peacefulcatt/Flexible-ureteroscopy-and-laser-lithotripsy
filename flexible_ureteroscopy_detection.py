@@ -88,8 +88,8 @@ def draw_transparent_grids(frame, blue_object_width, alpha=0.5):
 
 def main():
     paused = False
-    video_path = "/home/peacefulcat/sample1.mp4"
-    cap = cv2.VideoCapture(video_path)
+    video_path = "/path/to/your/video.mp4"
+    cap = cv2.VideoCapture(video_path) # or use cv2.VideoCapture(0) to reach to your webcam (in any or the webcam for any index)
     lower_blue = np.array([100, 50, 50])
     upper_blue = np.array([130, 255, 255])
     lower_blue_rectangle = np.array([100, 50, 50])
