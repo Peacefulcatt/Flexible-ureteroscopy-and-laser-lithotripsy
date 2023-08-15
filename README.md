@@ -20,7 +20,7 @@ This repository contains a Python script tailored for detecting and measuring ob
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/flexible-ureteroscopy-detection.git
+   git clone https://github.com/Peacefulcatt/flexible-ureteroscopy-detection.git
    cd flexible-ureteroscopy-detection
    ```
 
@@ -58,4 +58,3 @@ The script's design is inspired by various image processing techniques and harne
 
 ---
 
-Remember to replace `"your-username"` with your GitHub username in the clone URL and provide any additional information specific to your project's goals and requirements. This README will help convey the purpose and functionality of your repository effectively.
